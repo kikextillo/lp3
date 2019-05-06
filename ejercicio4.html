@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang= "en"
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio4</title>
+		
+	</head>
+	<body>
+		<form action="ejercicio4.php" method="GET">
+				<center><h3>Características de una computadora</h3></center>
+		
+				<center>
+				<form action="" method="">
+						<table>
+							<tr>
+								<td id="fila" align="right" width="300">
+								<b>Usuario:</b>
+								</td>
+								<td colspan="2">
+								<input type="text" name="usu" value="Juan Pérez" size="25" readonly>	
+								</td>
+							</tr>
+							<tr>
+								<td id="fila" align="right">
+								<b>Marca:</b>
+								</td>
+								<td colspan="2">
+									<select name="marca" width="25">
+										<option value="Acer">Acer</option>
+										<option value="HP">HP</option>
+										<option value="Appel">Appel</option>
+										<option value="Toshiba">Toshiba</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td id="fila" align="right">
+								<b>Placa Madre:</b>
+								</td>
+								<td colspan="2">
+									<select name="placa">
+										<option value="Asus">Asus</option>
+										<option value="ASRock">ASRock</option>
+										<option value="Biostar">Biostar</option>
+										<option value="ECS">ECS</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td id="fila" align="right">
+								<b>Disco Duro:</b>
+								</td>
+								<td colspan="2">
+								<input type="radio" checked name="disco" value="<=250GB">Menor o igual 250 GB
+								</td>
+							</tr>
+							<tr>
+								<td id="fila"></td>
+								<td colspan="2">
+								<input type="radio"  name="disco" value="<=500GB">Menor o igual 500 GB
+								</td>
+							</tr>
+							<tr>
+								<td id="fila"></td>
+								<td colspan="2">
+								<input type="radio" name="disco" value="<=1TB">Menor o igual 1 TB
+								</td>
+							</tr>
+							<tr>
+								<td id="fila"></td>
+								<td colspan="2">
+								<input type="radio" name="disco" value=">1TB">Mayor a 1 TB
+								</td>
+							</tr>
+							<tr>
+								<td id="fila" align="right">
+								<b>RAM:</b>
+								</td>
+								<td colspan="2">
+									<select name="ram">
+										<option value="<2">Menor a 2 GB</option>
+										<option value=">=4">Mayor o igual a 4 GB</option>
+										<option value=">5">Más de 5 GB</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td id="fila" align="right">
+								<b>Programas:</b>
+								</td>
+								<td>
+									<input type="checkbox" name="sistema1" value="1" checked>
+								</td>
+								<td> Windows</td>
+							</tr>
+							<tr>
+								<td id="fila"></td>
+								<td>
+									<input type="checkbox" name="sistema2" value="2" checked>
+								</td>
+								<td> Linux</td>
+							</tr>
+							<tr>
+								<td id="fila"></td>
+								<td>
+									<input type="checkbox" name="sistema3" value="3" checked>
+								</td>
+								<td> CorelDraw</td>
+							</tr>
+							<tr>
+								<td id="fila"></td>
+								<td>
+									<input type="checkbox" name="sistema4" value="4" checked>
+								</td>
+								<td> Open Office</td>
+							</tr>
+							<tr>
+								<td id="fila"></td>
+								<td>
+									<input type="checkbox" name="sistema5" value="5" checked>
+								</td>
+								<td> Microsoft Office</td>
+							</tr>
+						</table>
+					<br>
+						<input type="submit" value="Enviar">
+						<input type="reset" value="Cancelar">
+				</form>
+				</center>
+		</form>
+        
+		<a href="index.html"><h3><b>Volver a la pagina principal</b></h3></a>
+	</body>
+</html>
